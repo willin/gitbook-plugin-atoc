@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-atoc",
+  "description": "Add table of content for GitBook",
+  "main": "index.js",
+  "version": "0.0.1",
+  "engines": {
+    "gitbook": "*"
+  },
+  "homepage": "https://github.com/willin/gitbook-plugin-atoc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willin/gitbook-plugin-atoc.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willin/gitbook-plugin-atoc/issues"
+  },
+  "dependencies": {
+    "markdown-toc": "^0.11.7"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "toc"
+  ],
+  "author": "Willin Wang <willin@willin.org>"
+}
