@@ -14,7 +14,7 @@ Add `<!-- toc -->` to the markdown files. When you build the book, it will inser
 	"pluginsConfig": {
 		"atoc": {
 			"addClass": true,
-			"className": "toc"
+			"className": "atoc"
 		}
 	}
 }
