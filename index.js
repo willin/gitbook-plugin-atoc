@@ -6,7 +6,7 @@ module.exports = {
         "page:before": function (page) {
             page.content = toc.insert(page.content, {
                 slugify: function (str) {
-                    return encodeURI(str.toLowerCase()).replace(/%20/g, '-');
+                    return encodeURI(str.toLowerCase().replace(/[\\!"#$%&'()*+,.\/:;<=>?@[\]^_`{|}~-]/g,'')).replace(/%20/g, '-');
                 }
             });
             if (this.options.pluginsConfig.atoc.addClass) {
