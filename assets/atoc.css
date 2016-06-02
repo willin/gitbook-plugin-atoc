@@ -1,0 +1,30 @@
+.atoc {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px !important;
+    z-index: 9999;
+    color: #a1a1a1;
+}
+
+.atoc ul {
+    padding-left: 10px !important;
+}
+
+.atoc li {
+    list-style: none;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.atoc ul li {
+    list-style: cjk-ideographic inside;
+}
+
+.atoc ul ul li {
+    list-style-type: decimal;
+}

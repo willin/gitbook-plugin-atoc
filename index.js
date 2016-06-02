@@ -1,7 +1,12 @@
 var toc = require('markdown-toc');
 
 module.exports = {
-    book: {},
+    book: {
+      assets: './assets',
+      css: [
+          "atoc.css"
+      ],
+    },
     hooks: {
         "page:before": function (page) {
             page.content = toc.insert(page.content, {
