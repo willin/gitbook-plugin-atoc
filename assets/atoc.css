@@ -1,3 +1,8 @@
+@media (max-width: 767px) {
+    .atoc{
+      display: none;
+    }
+}
 .atoc {
     position: fixed;
     right: 10px;
