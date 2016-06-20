@@ -1,13 +1,13 @@
 require(["gitbook","jQuery"],function(gitbook,$){
   function resetTOC(){
-    var targetUl = document.getElementsByClassName('page-inner')[0].getElementsByTagName('ul')[0];
-    if(targetUl && targetUl.getElementsByTagName('a').length>0) {
+    var targetUl = $('.page-inner ul:eq(0)');
+    if(targetUl && targetUl.children('li').children('a').attr('href').indexOf('#') === 0) {
       $('.'+className+' .toggle').unbind('click');
-      $(targetUl).before('<div class="' + className + '">' + targetUl.outerHTML + '<div class="toggle"><i class="fa fa-align-justify"></i></div></div>');
+      targetUl.before('<div class="' + className + '">' + targetUl.html() + '<div class="toggle"><i class="fa fa-align-justify"></i></div></div>');
       $('.'+className+' .toggle').bind('click',function(){
           $('.'+className+' ul').stop(true,true).slideToggle();
       });
-      $(targetUl).remove();
+      targetUl.remove();
     }
   }
 
