@@ -1,4 +1,5 @@
 var toc = require('markdown-toc');
+var slug = require('github-slugid');
 
 module.exports = {
     book: {
