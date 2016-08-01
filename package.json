@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-atoc",
   "description": "Add table of content for GitBook",
   "main": "index.js",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "engines": {
     "gitbook": "*"
   },
