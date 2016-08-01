@@ -16,7 +16,8 @@
     "url": "https://github.com/willin/gitbook-plugin-atoc/issues"
   },
   "dependencies": {
-    "markdown-toc": "^0.11.7"
+    "markdown-toc": "^0.11.7",
+    "github-slugid": "1.0.1"
   },
   "keywords": [
     "gitbook",
