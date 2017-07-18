@@ -1,4 +1,4 @@
-#gitbook-plugin-atoc
+# gitbook-plugin-atoc
 
 [![npm](https://img.shields.io/npm/v/gitbook-plugin-atoc.svg?style=plastic)](https://npmjs.org/package/gitbook-plugin-atoc) [![npm](https://img.shields.io/npm/dm/gitbook-plugin-atoc.svg?style=plastic)](https://npmjs.org/package/gitbook-plugin-atoc) [![npm](https://img.shields.io/npm/dt/gitbook-plugin-atoc.svg?style=plastic)](https://npmjs.org/package/gitbook-plugin-atoc)
 
