@@ -15,9 +15,9 @@ module.exports = {
         "page:before": function (page) {
             page.content = toc.insert(page.content, {
                 slugify: function (str) {
-                  return slug(str.replace(/&.*?;/g, ""));
+                  return slug(str.replace(/&.*?;/g, ''));
                 },
-                bullets: "*"
+                bullets: '*'
             });
             if (this.options.pluginsConfig.atoc.addClass) {
                 var className = this.options.pluginsConfig.atoc.className || 'atoc';
